@@ -59,7 +59,7 @@ public class Exercise extends ExerciseBase {
      */
 
     public ArrayList<Integer> multiply(ArrayList<Integer> numbers, int number) {
-        numbers.replaceAll(integer -> integer * number);
+        numbers.replaceAll(i -> i * number);
         return numbers;
     }
 
